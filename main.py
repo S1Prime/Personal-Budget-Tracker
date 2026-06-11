@@ -34,7 +34,7 @@ while True:
             count=1
             for exp in expenses:
                 print(f"Expense No {count}=> {exp["Date"]},{exp["category"]},{exp["Description"]},{exp["Amount"]} ")
-                count+=1
+                count+=1 #Expense will be increased by 1
 
 #3.Viewing Total Expenses
     elif (choice==3):
