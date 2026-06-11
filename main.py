@@ -9,6 +9,7 @@ while True:
     print("2.View Expenses")
     print("3.View Total Expenses")
     print("4.Exit Menu")
+    
 #1.Adding Expenses
     choice = input("Enter Your Choice:")
     if choice == "1":
