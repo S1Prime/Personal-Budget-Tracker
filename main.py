@@ -9,7 +9,7 @@ while True:
     print("2.View Expenses")
     print("3.View Total Expenses")
     print("4.Exit Menu")
-    
+
 #1.Adding Expenses
     choice = input("Enter Your Choice:")
     if choice == "1":
@@ -27,7 +27,7 @@ while True:
         print("\n Expenses Added Succesfully")
 
 #2.Viewing Expenses
-    elif (choice==2):
+    elif (choice == "2"):
         if (len(expenseslst)==0):
             print("No expenses found")
         else:
@@ -38,14 +38,14 @@ while True:
                 count+=1 #Expense will be increased by 1
 
 #3.Viewing Total Expenses
-    elif (choice==3):
+    elif (choice =="3"):
         total=0
         for krcha in expenseslst:
             total=total + krcha["Amount"]
         print("\n Total Expense is :",total)
 
 #4.Exiting the Menu
-    elif (choice==4):
+    elif (choice =="4"):
         print("Thank You for using Personal Budget Tracker")
         break
 
