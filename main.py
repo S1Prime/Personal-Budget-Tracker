@@ -33,8 +33,8 @@ while True:
         else:
             print("===This is the expenses===")
             count=1
-            for exp in expenses:
-                print(f"Expense No {count}=> {exp["Date"]},{exp["category"]},{exp["Description"]},{exp["Amount"]} ")
+            for exp in expenseslst:
+                print(f"Expense No {count}=> {exp['Date']},{exp['category']},{exp['Description']},{exp['Amount']}")
                 count+=1 #Expense will be increased by 1
 
 #3.Viewing Total Expenses
